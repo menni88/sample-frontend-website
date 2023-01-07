@@ -1,0 +1,280 @@
+body{
+  font-family: droid arabic kufi,Arial;
+  background-color: #ECF0F0;
+  margin: 0;
+  padding: 0;
+  height: 2500px;
+  direction: ltr;
+}
+
+.container{
+  width: 1300px;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Start Header */
+.header{
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color:#F9F9F9;
+  height:65px;
+  margin: 0 ;
+  overflow: hidden;
+  box-shadow: 1px 0 2px 1px #ddd;
+  z-index: 1;
+  float: right;
+  direction: ltr;
+}
+.header button{
+  
+  margin-right: 80px;
+  margin-top: 15px;
+  background:none;
+  font-size: 16px;
+  padding: 10px 6px;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: bold;
+  float: right;
+}
+.header .login{
+  margin-left: 250px;
+  background-color: #1495B7;
+  color: #FFF;
+  border: none;
+  }
+  .header .login:hover{
+    cursor: pointer;
+    background-color: #00a1cb;
+  }
+
+.header .singnup{
+  background-color: #10c448;;
+  color: #FFF;
+  border: none;
+
+}
+.header .singnup:hover{
+  cursor: pointer;
+  background-color: #10bf46;
+}
+.header input{
+  direction: rtl;
+  position: relative;
+  height: 40px;
+  margin: auto;
+  width: 35%;
+  border-radius: 15px;
+  border: 1px solid #bbb;
+  padding: 5px;
+}
+.header input:focus{
+  box-shadow: 0px 0px 6px rgb(19, 169, 255);
+}
+.header img{
+  float: right;
+  margin: 20px 30px 0px 0px ;
+  width: 130px;
+  height: 35px;
+}
+/*End Header */
+
+/*Start left side*/
+
+.leftside{
+  margin-top: 75px;
+  float: left;
+  width: 23%;
+  text-align: center;
+  font-size: 18px;
+}
+.leftside .flowus {
+  background-color: #FFF;
+  padding: 15px;
+  border-bottom: 1px solid #DDD;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px 1px #ddd;
+}
+.leftside .warn {
+  background-color: #FFF;
+  padding: 15px;
+  border-radius:0 0 4px 4px ;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 2px 1px #ddd;
+}
+.facebook{
+  display: flex;
+  justify-content: center;
+  background-color: #274a92;
+  padding: 10px;
+  width: 20px;
+  color: white;
+}
+.facebook:hover{
+  width: 60px;
+}
+.twitter{
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+  background-color: #2daae4;
+  padding: 10px;
+  width: 20px;
+  color: white;
+}
+.twitter:hover{
+  width: 60px;
+}
+
+.leftside .movitype{
+  height: 42px;
+  overflow: hidden;
+  padding: 10px;
+}
+.leftside .movitype > a{
+  float: left;
+  width: 48%;
+  text-decoration: none;
+  background-color: #FFF;
+  color:red;
+  padding: 13px 0px;
+  border-radius: 7px;
+  font-size: 15px;
+}
+.leftside .movitype .ls1 {
+margin-right: 10px;
+}
+.leftside .movitype a:hover{
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}
+/*End left side
+-----------------------------------------------------------*/
+
+/*Start Main*/
+
+.main{
+  margin-top: 75px;
+  margin-left: 8px;
+  margin-right: 8px;
+  float: left;
+  width: 63%;
+  overflow: hidden;
+}
+.main .notefication p{
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 100px;
+  font-size: 1.6em;
+  position: relative;
+  left: 236px;
+  padding: 5px;
+  }
+  .main .notefication span{
+  padding-right: 240px;
+}
+
+
+/*start of all films*/
+
+.view{
+  overflow: hidden;
+  background-color: #FFF;
+  padding: 15px 5px 10px 5px;
+  border-radius: 0 0 4px 4px;
+  height: 310px;
+  position: relative;
+  top: -25px;
+}
+.view a{
+  float: right;
+  overflow: visible;
+  text-align: center;
+  text-decoration: none;
+  padding-bottom: 5px;
+  width: 200px;
+  height: 290px;
+}
+.view img{
+  width: 85%;
+  height: 78%;
+}
+.view p{
+  color: #0066CC;
+}
+.all-main{
+  margin-top: -45px;
+}
+/*End Main
+----------------------------------------------------------*/
+
+/*Start rightside*/
+.fas ,.far{
+  padding-right: 8px;
+}
+.rightside{
+  margin-top: 75px;
+  float: left;
+  width: 12%;
+  top: 0px;
+  position: fixed;
+  right: 25px;
+  margin-right: 1%;
+  opacity: 80%;
+}
+
+.rightside .egy1{
+  background-color: #FFF;
+  padding:10px;
+  text-align: right;
+  margin-bottom: 1px;
+}
+.rightside .egy1 a{
+  text-decoration: none;
+  color: #0066CC;
+  font-weight: bold;
+  font-size: 17px;
+}
+.rightside .egy1 a:hover{
+  color: #FF0000;
+}
+
+/*End rightside
+--------------------------------------------------------*/
+
+/*start header 2*/
+.header2{
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  width: 800px;
+  padding: 15px;
+  background-color:#ffffff;
+  height:30px;
+  top: -70px;
+  border-radius: 5px;
+  border-bottom: 1px solid #ECF0F0;
+  font-size: 16px;
+}
+.header2 p{
+  font-weight: 900;
+  position: relative;
+  bottom: 15px;
+  font-size: 18px;
+}
+.header2 a{
+  color: #0066CC;
+  text-decoration: none;
+  font-size: 18px;
+}
+.header2 a:hover{
+  color: red;
+}
+
+/*end header 2
+-------------------------------------------------------------*/

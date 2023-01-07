@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الاشتراك</title>
+</head>
+<body style="background-color:#ECF0F0 ; margin: 0;padding: 0; height: 600px; font-family: droid arabic kufi,Arial;">
+    <!--header-->
+    <div class="header" style="background-color:#F9F9F9; width: 100%; height: 65px; margin-bottom: 20px; display: flex;">
+        <a href="page1.html" style="color: black; text-decoration: none; font-size: 15; padding-left: 1050px;padding-top: 30px;">&gt;&gt; HOME</a>
+    </div>
+     <!--header-->
+    <div style="display: flex;flex-direction: row;"><div style="padding-left: 300px;padding-top: 250px;">
+    <button type="button" style="margin-left: 80px; background-color: blue; width: 280px;height: 50px;border-radius: 8px;color: cornsilk; font-size: 20px;font-family: sans-serif;">Sing In With FaceBook</button>
+    <br><br>
+    <button type="button" style="margin-left: 80px;background-color: rgb(192, 3, 3); width: 280px;height: 50px;border-radius: 8px;color: cornsilk; font-size: 20px;font-family: sans-serif;">Sing In With Google</button>
+     <p style="margin-left: 80px;">Use your social accounts to sign in quickly.   </p>
+     </div>
+     <div style="margin-left: 130px  ;">
+         <div style="height: 300px;background-color: rgba(216, 214, 214,0.7);width: 3px;"></div>
+         <p style="color:rgba(151, 148, 148, 0.7);font-size: 23;">OR</p>
+         <div style="height: 250px;background-color: rgba(216, 214, 214,0.7);width: 3px;"></div>
+     </div>
+     
+
+
+        <!-- form -->
+        <div style="width: 300px;height: 410px;margin-left: 40px; background-color: rgb(233, 233, 233);padding-left: 30px;padding-top:7px;margin-top: 120px;border-radius: 5px;">
+
+            <h2>Create a new Account</h2>
+    <form>
+            <input required style="height: 25px;" type="text" ftype="reg" placeholder="Name" value="" maxlength="40">
+        <br> 
+        <input required style="height: 25px; margin-top: 20px;" type="email" ftype="reg" placeholder="email" value="" maxlength="40">  
+        <br>
+        <input required style="height: 25px; margin-top: 20px;" type="password" ftype="reg" placeholder="New password" id="pas1" value="" maxlength="40"> 
+        <br>
+        <input  required style="height: 25px; margin-top: 20px;" type="password" ftype="reg" placeholder="confirm password" id="pas2" value="" maxlength="40">   
+         <br><label id="maroo" ></label>
+        <script>
+            function compare(){
+                var x=document.getElementById("pas1");
+                var y=document.getElementById('pas2');
+                if(x!=y){
+                    document.getElementById("maroo").innerHTML="pleas check your password";
+                }
+            }
+            function toCelsius() {
+                var x=document.getElementById("pas1");
+                var y=document.getElementById("pas2");
+                if(x==y){
+                alert("password is true");
+            }
+                else{
+                    alert("password is not the same");
+                }
+            }
+            </script>
+        <br>
+        <div style="display: flex;flex-direction: row;">
+            <input type="radio" style="margin-top: 20px;"  > <h4 style="padding-left: 10px;">Male</h4>
+            <input type="radio"  style="margin-left: 80px; margin-top: 20px;"> <h4 style="padding-left: 10px;">Female</h4>
+        </div>
+        <button onclick="compare() "  type="submit" style="background-color: rgb(40, 138, 82);font-size: 18px;font-weight: 600;color: seashell; width: 150px;height: 40px;border-radius: 7px; border-color: rgba(216, 214, 214,0.7);">sign in</button>
+        <div style="width: 400px;height: 550px;display: flex;flex-direction: row;">
+            <p>Already have an account?</p>
+            <a href="signin.html" style="color:mediumblue ; padding-top: 15px;padding-left: 8px;">Sign in</a>
+        </div>
+    </form>
+    </div>
+</div>
+<br><br><br>
+<hr>
+    <select style="margin-left: 90%;margin-top: 10px;">
+        <option value="volvo">عربي</option>
+        <option value="saab">english</option>
+    </select>
+    <p style="margin-left: 20px;margin-top: 10px;">© 2020 eGexa</p>
+</body>
+</html>
